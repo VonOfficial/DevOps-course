@@ -20,4 +20,5 @@ jobs:
         with:
           python-version: '3.13'
 
-      - run: python --version
+   - name: Show Python version
+     run: python --version
